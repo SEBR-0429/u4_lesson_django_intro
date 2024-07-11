@@ -170,6 +170,7 @@ After running postgres, create a new file called `settings.sql` in the project r
   CREATE DATABASE tunr;
   CREATE USER tunruser WITH PASSWORD 'tunr';
   GRANT ALL PRIVILEGES ON DATABASE tunr TO tunruser;
+  ALTER DATABASE tunr OWNER TO tunruser;
   ```
 
   Then run the following command from the root directory:

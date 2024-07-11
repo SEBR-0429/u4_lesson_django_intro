@@ -95,6 +95,8 @@ PC users may need to use "pip" instead of "pipenv" for these
   pipenv run django-admin startproject tunr_django .
   ```
 
+PC / Winows, remove 'pipenv run' and start the command with 'django-admin'
+
   > Make sure you put the . on the end! This creates the project in the current directory instead of creating a new subfolder.
 
   Let's break down this command, because there are a few parts to it:

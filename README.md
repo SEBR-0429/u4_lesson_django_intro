@@ -42,6 +42,13 @@ brew install pipenv
   pipenv shell
   ```
 
+PC users may need to enter 
+
+```
+python3 -m pipenv shell
+```
+instead
+
 4. Open up the project in VS Code and take a look at the `Pipfile`. It should look similar to this:
 
   ```

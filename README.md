@@ -79,6 +79,8 @@ To find your computer's version of Python 3, type "python -V" in your terminal
   pipenv install django
   ```
 
+PC users may need to use "pip" instead of "pipenv" for these
+
   Running the above command will install Django and create the virtual environment where your dependencies for this project will be managed. Pipenv works a lot like npm does: it'll install our dependencies and track them in a `Pipfile`. This is similar to how `npm` works, the main difference being that pipenv does all the work for us by putting the dependencies in a separate location, so we don't have to worry about adding things to `.gitignore`.
 
 6. Next, we're going to install the library for connecting Django to PostgreSQL:
